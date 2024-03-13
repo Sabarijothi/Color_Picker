@@ -1,0 +1,41 @@
+.color_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color_container h1{
+    font-size: 3rem;
+    margin:50px;
+}
+
+.color_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border:5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition : 0.25s ease;
+}
+.color_display p{
+    color:hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.color_container label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.color_container input[type="color"]{
+    width:75px;
+    height: 50px;
+    padding: 5px;
+    border: 3px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+}
